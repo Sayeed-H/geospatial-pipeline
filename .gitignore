@@ -1,0 +1,57 @@
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.sum
+
+# Binaries
+simulator/simulator
+ingestion/bridge
+api/api
+
+# Environment
+.env.local
+.env.production
+
+# Docker volumes (never commit data)
+data/
+volumes/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python (for ML phase)
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Node (for dashboard phase)
+node_modules/
+.next/
+out/
+npm-debug.log*
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Logs
+*.log
+logs/
